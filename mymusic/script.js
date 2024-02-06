@@ -137,9 +137,6 @@ x.addEventListener('click', function() {
     footer.style.transition = '.5s';
 })
 let show = document.querySelector('.show');
-show.addEventListener('click', function() {
-    alert('');
-})
 
 document.addEventListener('keyup', function(event) {
     if (KeyboardEvent.keyCode = 32) {
