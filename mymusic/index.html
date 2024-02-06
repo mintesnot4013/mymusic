@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Music Ash</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+
+
+    <!--               nav                                -->
+
+    <nav>
+        <header>
+            <div class="img">&#9835</div>
+            <h1>My Music</h1>
+        </header>
+
+        <p>Recommended</p>
+        <ul>
+            <li><a>&#9835</a> For You</li>
+            <li><a>&#9835</a> Librery</li>
+            <li><a>&#9835</a> My Music</li>
+        </ul>
+
+        <p>My Music</p>
+        <ul>
+            <li><a>&#9737 </a>Albums</li>
+        </ul>
+
+
+        <p>play list</p>
+        <ul>
+            <li> <a>&#9779</a> my list one </li>
+            <li> <a>&#9779</a> my list two</li>
+            <li> <a>&#9779</a> my list there</li>
+        </ul>
+
+    </nav>
+
+    <!--               nav end                               -->
+
+
+    <main id="main">
+        <header>
+            <div class="input">
+
+                <input class="inp" type="search" placeholder="Search">
+            </div>
+            <div class="user">
+                <img src="asset/face24s.jpg" alt="user_avatar">
+                <h3>user name</h3>
+            </div>
+        </header>
+        <hr>
+        <div class="music">
+            <div class="albemArt">
+                <img src="asset/face24.jpg" class="MusicAlbum">
+            </div>
+            <ul class="musicLister">
+
+
+
+            </ul>
+        </div>
+
+        <div class="filterable_cards">
+
+        </div>
+
+    </main>
+
+
+
+
+    <div class="darkMod" title="dark mod"></div>
+
+    <div class="lightMod" title="enable dark mod"></div>
+
+    <footer class="footer">
+        <div style="display:none;cursor: pointer; color:red;font-size:20px;width: 20px;border: solid;text-align: center;position: absolute;border-radius: 50%;" id="x"> x</div>
+
+        <img onclick="openPanel()" src="asset/face24.jpg" class="footer_img">
+
+        <a id="a"> Music Name</a> <i id="i">Jalye Bey Jalya</i>
+        <div class="controler">
+            <button id="pre">&#11013</i></button>
+            <button id="stop" style="display: none;">&#9208</button>
+            <button id="play">&#9658</button>
+            <button id="next">&#10153</button>
+        </div>
+        <audio id="audio" controls>
+        </audio>
+
+    </footer>
+</body>
+
+
+
+
+
+
+<script src="script.js">
+
+</script>
+
+</html>
