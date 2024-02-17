@@ -74,7 +74,7 @@ next.addEventListener('click', function() {
     currentTrack++;
     var played = audio.src = 'asset/' + source[currentTrack];
 
-    audio.play();
+    
     a.innerHTML = source[currentTrack];
     footerImg.src = 'asset/' + Image[currentTrack];
     MusicAlbum.src = 'asset/' + Image[currentTrack];
@@ -88,7 +88,7 @@ pre.addEventListener('click', function() {
     currentTrack--;
     var played = audio.src = 'asset/' + source[currentTrack];
 
-    audio.play();
+    
 
     a.innerHTML = source[currentTrack];
     footerImg.src = 'asset/' + Image[currentTrack];
